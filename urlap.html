@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Űrlap</title>
+</head>
+<body>
+    <a href="index.html">Vissza a főoldalra</a>
+    <br>
+    <a href="keplink.html"> Képlinkes feladat </a>
+    <br>
+    <a href="lista.html">Lista feladat</a>
+    <br>
+    <a href="tablazat.html">Órarend</a>
+    <br><br>
+
+    <h2>Űrlap</h2>
+    <br>
+        <h3>Név</h3>
+            <input type="text">
+        <h3>Jelszó</h3>
+            <input type="password">
+        <h3>Neme</h3>
+            <input type="radio" name="gender">Férfi
+            <input type="radio" name="gender">Nő
+        <h3>Kép önről</h3>
+            <input type="file">
+        <h3>Email címe</h3>
+            <input type="email">
+        <h3>Hány éves</h3>
+            <input type="number">
+        <h3>Kitöltés dátuma</h3>
+            <input type="date">
+        <h3>Kitöltés ideje</h3>
+            <input type="time">
+        <h3>Mennyire tetszik az űrlap</h3>
+            <input type="range">
+        <h3>A véleménye az űrlapról</h3>
+            <textarea cols="40" rows="4"></textarea>
+        <h3>Kedvenc színe</h3>
+            <input type="color">
+        <h3>A 9.A a legjobb osztály</h3>
+            <input type="checkbox">Egyetértek
+        <h3>Kedvenc tantárgya.</h3>
+            <select>
+                <option>IKT projektmunka</option>
+                <option>Informatikax és távközlés</option>
+                <option>Matematika</option>
+                <option>Angol</option>
+            </select>
+        <h3>A kedvenc napja</h3>
+            <select size="5">
+                <option>Hétfő</option>
+                <option>Kedd</option>
+                <option>Szerda</option>
+                <option>Csütörtök</option>
+                <option>Péntek</option>
+                <option>Szombat</option>
+                <option>Vasárnap</option>
+            </select>
+        <h3>Hova menne el szívesen</h3>
+            <select title="Válassz uticélt!">
+                 <option disabled=disable selected>---Válassz!---</option>
+
+                 <optgroup label="Magyarország">
+                    <option>Budapest</option>
+                    <option>Szeged</option>
+                    <option>Miskolc</option>
+                 </optgroup>
+
+                 <optgroup label="Olaszország">
+                    <option>Róma</option>
+                    <option>Nápoly</option>
+                 </optgroup>
+
+                 <optgroup label="Amerika">
+                 <option>Miami</option>
+                 <option>Washington</option>
+                </optgroup>
+            </select>
+            <h3>Kedvenc nyelve</h3>
+                <input list="nyelv">
+                <datalist id='nyelv'>
+                    <option value="Angol">
+                    <option value="Magyar">
+                    <option value="Német">
+                    <option value="Orosz">
+                    <option value="Spanyol">
+                </datalist>
+                <br><br>
+            <Input type="reset">
+            <Input type="button" value="Feldolgozás">
+            <Input type="submit">
+
+
+</body>
+</html>
