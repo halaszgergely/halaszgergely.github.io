@@ -1,12 +1,42 @@
 
 a {
-    text-decoration: none;
-    color: cadetblue;
-    transition: 1s;
+    text-decoration:wavy;
+    color:burlywood;
+    font-weight: bold;
+    font-size: 20px
 }
 a:hover {
-   color: red;
+   color: ghostwhite;
+   font-size:140%;
 }
 .active {
-    background-color:lightgrey;
+    color: chartreuse;
+    font-style: italic;
+    background-color:coral;
+    border: 1px solid black;
+}
+body{
+    background-color: darkcyan;
+}
+p{
+    color: gold;
+
+}
+h2{
+    color: greenyellow;
+}
+ol{
+    color: coral;
+}
+ul{
+    color: maroon  ;
+}
+tr{
+    color:lawngreen;
+}
+table,tr,th,td  {border: 2px solid blue;
+}
+
+caption{
+    color: darkseagreen;
 }
