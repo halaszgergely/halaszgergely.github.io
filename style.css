@@ -6,14 +6,13 @@ a {
     font-size: 20px
 }
 a:hover {
-   color: ghostwhite;
-   font-size:140%;
+   color: black;
+   font-size:160%;
 }
 .active {
     color: chartreuse;
     font-style: italic;
-    background-color:coral;
-    border: 1px solid black;
+    background-color: blueviolet;
 }
 body{
     background-color: darkcyan;
@@ -25,12 +24,6 @@ p{
 h2{
     color: greenyellow;
 }
-ol{
-    color: coral;
-}
-ul{
-    color: maroon  ;
-}
 tr{
     color:lawngreen;
 }
@@ -39,4 +32,21 @@ table,tr,th,td  {border: 2px solid blue;
 
 caption{
     color: darkseagreen;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: blue;
+}
+li{
+    float: left;
+}
+li a {
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
