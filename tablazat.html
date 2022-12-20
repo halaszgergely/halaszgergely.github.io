@@ -1,11 +1,52 @@
 <!DOCTYPE html>
-<html lang="hu">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Órarend</title>
-<link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.menu {
+  float: left;
+  width: 20%;
+  text-align: center;
+}
+
+.menu a {
+  background-color: #a3be28;
+  padding: 8px;
+  margin-top: 7px;
+  display: block;
+  width: 100%;
+  color: black;
+}
+
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+}
+
+.right {
+  background-color: #1eb11e8c;
+  float: left;
+  width: 20%;
+  padding: 15px;
+  margin-top: 7px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
+body{
+    background-color: deepskyblue;
+}
+</style>
 
 <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
@@ -15,110 +56,130 @@
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
 </head>
-<body>
-    <h2>Feladatok</h2> 
-    <ul>  
-        <li><a href="index.html">Főoldal</a></li>
-        <li><a href="keplink.html"> Képlinkes feladat </a></li>
-        <li><a href="lista.html">Lista feladat</a></li>
-        <li><a class="active" href="tablazat.html">Órarend</a></li>
-        <li><a href="urlap.html">Űrlap</a></li>
-        <li><a href="div.html">div-es feladat</a></li>
-    </ul>  
-    <br><br>
-<table>
-    <caption>9.A Órarend</caption>
-    <tr>
-        <th>Órarend</th>
-        <th>Hétfő</th>
-        <th>Kedd</th>
-        <th>Szerda</th>
-        <th>Csütörtök</th>
-        <th>Pétek</th>
-    </tr>
-    <tr>
-        <td>0.óra (7:15-8:00)</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td>Informatikai és távközlési alapok I.</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>1.óra (8:00-8:45)</td>
-        <td>Magyar nyelv és irodalom</td>
-        <td>Matematika</td>
-        <td>Magyar nyelv és irodalom</td>
-        <td>Informatikai és távközlési alapok I.</td>
-        <td>Magyar nyelv és irodalom</td>
-    </tr>
-    <tr>
-        <td>2.óra (8:55-9:40)</td>
-        <td>Angol nyelv</td>
-        <td>Magyar nyelv és irodalom</td>
-        <td>Magyar nyelv és irodalom</td>
-        <td>Informatikai és távközlési alapok I.</td>
-        <td>Digitális kultúra</td>
-    </tr>
-    <tr>
-        <td>3.óra (9:50-10:35)</td>
-        <td>Munkavállalói ismeretek</td>
-        <td>Matematika</td>
-        <td>Komplex természettudomány</td>
-        <td>Angol nyelv</td>
-        <td>Digitális kultúra</td>
-    </tr>
-    <tr>
-        <td>4.óra (10:45-11:30)</td>
-        <td>Osztályfőnöki</td>
-        <td>Történelem </td>
-        <td>Angol nyelv</td>
-        <td>Matematika</td>
-        <td>Testnevelés</td>
-    </tr>
-    <tr>
-        <td>5.óra (11:40-12:25)</td>
-        <td>Történelem</td>
-        <td>Komplex természettudomány</td>
-        <td>IKT projektmunka I.</td>
-        <td>Történelem</td>
-        <td>Programozási alapok</td>
-    </tr>
-    <tr>
-        <td>6.óra (12:45-13:30)</td>
-        <td>Matematika</td>
-        <td>Testnevelés</td>
-        <td>Matematika</td>
-        <td>Komplex természettudomány</td>
-        <td>Programozási alapok</td>
-    </tr>
-    <tr>
-        <td>7.óra (13:35-14:20)</td>
-        <td></td>
-        <td>Angol nyelv</td>
-        <td>Angol nyelv</td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>8.óra (14:25-15:10)</td>
-        <td></td>
-        <td></td>
-        <td>Angol nyelv</td>
-        <td></td>
-        <td></td>
-    </tr>
-</table>
-<footer>
-    <style>
-        h1,a{
-            font-size: 200%;
-            color: black;
-        }
-    </style>
-<h1>Készítő: Halász Gergely</h1>
-<a href="mailto: halaszg@kkszki.hu">halaszg@kkszki.hu</a>
+<body style="font-family:Verdana;color:#aaaaaa;">
 
-</footer>
+<div style="background-color:#c41c1c;padding:15px;text-align:center;">
+  <h1>Órarend</h1>
+</div>
+
+<div style="overflow:auto">
+    <div class="menu">
+      <a href="index.html">Főoldal</a>
+      <a href="keplink.html"> Képlinkes feladat </a>
+      <a href="lista.html">Lista feladat</a>
+      <a href="tablazat.html">Órarend</a>
+      <a href="urlap.html">Űrlap</a>
+      <a href="div.html">div-es feladat</a>
+    </div>
+
+  <div class="main">
+    <table>
+
+        <style>
+            th,td{
+                border: solid 1px black;
+                color: darkgreen;
+            }
+            caption{
+                color: chocolate;
+            }
+        </style>
+
+        <caption>9.A Órarend</caption>
+        <tr>
+            <th>Órarend</th>
+            <th>Hétfő</th>
+            <th>Kedd</th>
+            <th>Szerda</th>
+            <th>Csütörtök</th>
+            <th>Pétek</th>
+        </tr>
+        <tr>
+            <td>0.óra (7:15-8:00)</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Informatikai és távközlési alapok I.</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>1.óra (8:00-8:45)</td>
+            <td>Magyar nyelv és irodalom</td>
+            <td>Matematika</td>
+            <td>Magyar nyelv és irodalom</td>
+            <td>Informatikai és távközlési alapok I.</td>
+            <td>Magyar nyelv és irodalom</td>
+        </tr>
+        <tr>
+            <td>2.óra (8:55-9:40)</td>
+            <td>Angol nyelv</td>
+            <td>Magyar nyelv és irodalom</td>
+            <td>Magyar nyelv és irodalom</td>
+            <td>Informatikai és távközlési alapok I.</td>
+            <td>Digitális kultúra</td>
+        </tr>
+        <tr>
+            <td>3.óra (9:50-10:35)</td>
+            <td>Munkavállalói ismeretek</td>
+            <td>Matematika</td>
+            <td>Komplex természettudomány</td>
+            <td>Angol nyelv</td>
+            <td>Digitális kultúra</td>
+        </tr>
+        <tr>
+            <td>4.óra (10:45-11:30)</td>
+            <td>Osztályfőnöki</td>
+            <td>Történelem </td>
+            <td>Angol nyelv</td>
+            <td>Matematika</td>
+            <td>Testnevelés</td>
+        </tr>
+        <tr>
+            <td>5.óra (11:40-12:25)</td>
+            <td>Történelem</td>
+            <td>Komplex természettudomány</td>
+            <td>IKT projektmunka I.</td>
+            <td>Történelem</td>
+            <td>Programozási alapok</td>
+        </tr>
+        <tr>
+            <td>6.óra (12:45-13:30)</td>
+            <td>Matematika</td>
+            <td>Testnevelés</td>
+            <td>Matematika</td>
+            <td>Komplex természettudomány</td>
+            <td>Programozási alapok</td>
+        </tr>
+        <tr>
+            <td>7.óra (13:35-14:20)</td>
+            <td></td>
+            <td>Angol nyelv</td>
+            <td>Angol nyelv</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>8.óra (14:25-15:10)</td>
+            <td></td>
+            <td></td>
+            <td>Angol nyelv</td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+  </div>
+
+  <div class="right">
+    <h2>About</h2>
+    <img src="img/kollazs.jpg" alt="kollázs" title="kollázs" width="300">
+  </div>
+</div>
+
+<div style="background-color:#3d1bb9;text-align:center;padding:10px;margin-top:7px;">
+    <h4 style="color: aliceblue;">Készítő: Halász Gergely</h4>
+    <a href="mailto: halaszg@kkszki.hu" >halaszg@kkszki.hu</a>
+</div>
+
 </body>
 </html>
+

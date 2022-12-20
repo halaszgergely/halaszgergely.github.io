@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Képlinkes feladat</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+
+    <h2>Feladatok</h2> 
+    <ul>  
+        <li><a href="index.html">Főoldal</a></li>
+        <li><a class="active" href="keplink.html"> Képlinkes feladat </a></li>
+        <li><a href="lista.html">Lista feladat</a></li>
+        <li><a href="tablazat.html">Órarend</a></li>
+        <li><a href="urlap.html">Űrlap</a></li>
+        <li><a href="div.html">div-es feladat</a></li>
+    </ul>  
+    <br><br>
+    <a href="https://www.nosalty.hu/recept/gyors-chilis-bab" target="blank">
+
+        <img src="img/bab.jpg" alt="csilis bab" title="csilis bab" width="300" >
+
+    </a>
+    <footer>
+        <style>
+            h1,a{
+                font-size: 200%;
+                color: black;
+            }
+        </style>
+<h1>Készítő: Halász Gergely</h1>
+<a href="mailto: halaszg@kkszki.hu">halaszg@kkszki.hu</a>
+
+    </footer>
+</body>
+</html>

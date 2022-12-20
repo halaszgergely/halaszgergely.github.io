@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gergő oldala</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+<link rel="manifest" href="favicon/site.webmanifest">
+<link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    <h2>Feladatok</h2>     
+    <ul>  
+        <li><a class="active" href="index.html">Főoldal</a></li>
+        <li><a href="keplink.html"> Képlinkes feladat </a></li>
+        <li><a href="lista.html">Lista feladat</a></li>
+        <li><a href="tablazat.html">Órarend</a></li>
+        <li><a href="urlap.html">Űrlap</a></li>
+        <li><a href="div.html">div-es feladat</a></li>
+        </ul>    
+    
+    <h1 style="color:blueviolet; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Halász Gergely</h1>
+    <h2 style="color:brown; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ">Halász Gergely</h2>
+    <h3 style="color:crimson; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Halász Gergely</h3>
+    <h4 style="color:darkgreen; font-family: Arial, Helvetica, sans-serif;"></h4>Halász Gergely</h4>
+    <h5 style="color:cyan;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">Halász Gergely</h5>
+    <h6 style="color:darkblue;font-family: Georgia, 'Times New Roman', Times, serif;">Halász Gergely</h6>
+
+    <p>
+        blablabal
+        balklfkl
+        jnuhnthht
+        gtjheuotehj
+    </p>
+
+    <img src="img/kollazs.jpg" alt="A képen az kollázsképem látható" title="Gergő képe" width="400">
+
+    <footer>
+        <style>
+            h1,a{
+                font-size: 200%;
+                color: black;
+            }
+        </style>
+<h1>Készítő: Halász Gergely</h1>
+<a href="mailto: halaszg@kkszki.hu">halaszg@kkszki.hu</a>
+
+    </footer>
+</body>
+</html>
