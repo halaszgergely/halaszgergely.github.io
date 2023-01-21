@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Számológép</title>
+</head>
+<body>
+    
+    <ul>  
+        <li><a href="index.html">Főoldal</a></li>
+        <li><a href="keplink.html"> Képlinkes feladat </a></li>
+        <li><a class="active" href="lista.html">Lista feladat</a></li>
+        <li><a href="tablazat.html">Órarend</a></li>
+        <li><a href="urlap.html">Űrlap</a></li>
+        <li><a href="div.html">div-es feladat</a></li>
+        <li><a href="szamologep.html"></a></li>
+    </ul>
+
+
+
+    <form action="">
+        <fieldset>
+            <legend></legend>
+            <input type="number" name="szam" id="szam1" placeholder="SZÁM 1"> .
+            <input type="number" name="szam" id="szam2" placeholder="SZÁM 2"> =
+            <input type="text" id="eredmeny" placeholder="eredmény" readonly="">
+            <br><br>
+            <label for="muv">művelet:</label>
+            <input type="button" name="muv" value="+" onclick="ad()">
+            <input type="button" name="muv" value="-" onclick="kiv()">
+            <input type="button" name="muv" value="x" onclick="szor()">
+            <input type="button" name="muv" value=":" onclick="oszt()">
+            <input type="reset" name="muv" value="DEL">
+        </fieldset>
+    </form>
+
+    <script>
+        function ad() {
+            eredmeny.value = Number(szam1.value) + Number(szam2.value);
+        }
+
+        function kiv() {
+            eredmeny.value = Number(szam1.value) - Number(szam2.value);
+        }
+
+        function szor() {
+            eredmeny.value = Number(szam1.value) * Number(szam2.value);
+        }
+
+        function oszt() {
+            eredmeny.value = Number(szam1.value) / Number(szam2.value);
+        }
+    </script>
+</body>
+</html>

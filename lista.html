@@ -1,52 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html lang="hu">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style>
-* {
-  box-sizing: border-box;
-}
-
-.menu {
-  float: left;
-  width: 20%;
-  text-align: center;
-}
-
-.menu a {
-  background-color: #a3be28;
-  padding: 8px;
-  margin-top: 7px;
-  display: block;
-  width: 100%;
-  color: black;
-}
-
-.main {
-  float: left;
-  width: 60%;
-  padding: 0 20px;
-}
-
-.right {
-  background-color: #1eb11e8c;
-  float: left;
-  width: 20%;
-  padding: 15px;
-  margin-top: 7px;
-  text-align: center;
-}
-
-@media only screen and (max-width: 620px) {
-  /* For mobile phones: */
-  .menu, .main, .right {
-    width: 100%;
-  }
-}
-body{
-    background-color: deepskyblue;
-}
-</style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lista</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        ol{
+            color: coral;
+            background: none;
+        }
+        ul{
+            color: maroon  ;
+            background: none;
+        }
+        li{
+            float: none;
+            background-color: none;
+            background: none;
+        }
+        li a {
+            float: left;
+            background-color: blue;
+        }
+        .lista{
+            font-size: 250%;
+        }
+    </style>
 
 <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
@@ -56,56 +37,45 @@ body{
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
 </head>
-<body style="font-family:Verdana;color:#aaaaaa;">
-
-<div style="background-color:#c41c1c;padding:15px;text-align:center;">
-  <h1>Lista feladat</h1>
-</div>
-
-<div style="overflow:auto">
+<body>
+    <h2>Feladatok</h2> 
     <div class="menu">
-      <a href="index.html">Főoldal</a>
-      <a href="keplink.html"> Képlinkes feladat </a>
-      <a href="lista.html">Lista feladat</a>
-      <a href="tablazat.html">Órarend</a>
-      <a href="urlap.html">Űrlap</a>
-      <a href="div.html">div-es feladat</a>
-    </div>
-
-  <div class="main">
-    <style>
-        li{
-            color: black;
-        }
-        h2{
-            color: gold;
-        }
-    </style>
+        <ul>  
+            <li><a href="index.html">Főoldal</a></li>
+            <li><a href="keplink.html"> Képlinkes feladat </a></li>
+            <li><a class="active" href="lista.html">Lista feladat</a></li>
+            <li><a href="tablazat.html">Órarend</a></li>
+            <li><a href="urlap.html">Űrlap</a></li>
+            <li><a href="div.html">div-es feladat</a></li>
+            <li><a href="szamologep.html"></a></li>
+        </ul>
+    </div>  
+    <br><br>
+    <div class="lista">
     <h2>Kedvenc tantárgyaim</h2>
-    <ol>
-        <li>IKT Projektmunka</li>
-        <li> Informatikai és távközlési alapok</li>
-        <li>Matematika</li>
-    </ol>
+        <ol>
+            <li>IKT Projektmunka</li>
+            <li> Informatikai és távközlési alapok</li>
+            <li>Matematika</li>
+        </ol>
 
-    <h2>Hobbijaim</h2>
-<ul>
-    <li>Videójátékok</li>
-    <li>horgászás</li>
-    <li>olvasás</li>
-</ul>
-  </div>
-
-  <div class="right">
-    <img src="img/kollazs.jpg" alt="kollázs" title="kollázs" width="300">
-  </div>
+        <h2>Hobbijaim</h2>
+    <ul>
+        <li>Videójátékok</li>
+        <li>horgászás</li>
+        <li>olvasás</li>
+    </ul>
 </div>
+    <footer>
+        <style>
+            h1,a{
+                font-size: 200%;
+                color: black;
+            }
+        </style>
+<h1>Készítő: Halász Gergely</h1>
+<a href="mailto: halaszg@kkszki.hu">halaszg@kkszki.hu</a>
 
-<div style="background-color:#3d1bb9;text-align:center;padding:10px;margin-top:7px;">
-    <h4 style="color: aliceblue;">Készítő: Halász Gergely</h4>
-    <a href="mailto: halaszg@kkszki.hu" >halaszg@kkszki.hu</a>
-</div>
-
+    </footer>
 </body>
 </html>
-

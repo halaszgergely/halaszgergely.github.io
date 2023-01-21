@@ -1,95 +1,50 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style>
-* {
-  box-sizing: border-box;
-}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Képlinkes feladat</title>
+    <link rel="stylesheet" href="style.css">
 
-.menu {
-  float: left;
-  width: 20%;
-  text-align: center;
-}
-
-.menu a {
-  background-color: #a3be28;
-  padding: 8px;
-  margin-top: 7px;
-  display: block;
-  width: 100%;
-  color: black;
-}
-
-.main {
-  float: left;
-  width: 60%;
-  padding: 0 20px;
-}
-
-.right {
-  background-color: #1eb11e8c;
-  float: left;
-  width: 20%;
-  padding: 15px;
-  margin-top: 7px;
-  text-align: center;
-}
-
-@media only screen and (max-width: 620px) {
-  /* For mobile phones: */
-  .menu, .main, .right {
-    width: 100%;
-  }
-}
-body{
-    background-color: deepskyblue;
-}
-</style>
-
-<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-<link rel="manifest" href="favicon/site.webmanifest">
-<link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
-<meta name="msapplication-TileColor" content="#da532c">
-<meta name="theme-color" content="#ffffff">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
 </head>
-<body style="font-family:Verdana;color:#aaaaaa;">
+<body>
 
-<div style="background-color:#c41c1c;padding:15px;text-align:center;">
-  <h1>Képlinkes feladat</h1>
-</div>
-
-<div style="overflow:auto">
+    <h2>Feladatok</h2> 
     <div class="menu">
-      <a href="index.html">Főoldal</a>
-      <a href="keplink.html"> Képlinkes feladat </a>
-      <a href="lista.html">Lista feladat</a>
-      <a href="tablazat.html">Órarend</a>
-      <a href="urlap.html">Űrlap</a>
-      <a href="div.html">div-es feladat</a>
-    </div>
-    <br><br><br><br><br>
-  <div class="main">
+        <ul>  
+            <li><a href="index.html">Főoldal</a></li>
+            <li><a href="keplink.html"> Képlinkes feladat </a></li>
+            <li><a class="active" href="lista.html">Lista feladat</a></li>
+            <li><a href="tablazat.html">Órarend</a></li>
+            <li><a href="urlap.html">Űrlap</a></li>
+            <li><a href="div.html">div-es feladat</a></li>
+            <li><a href="szamologep.html"></a></li>
+        </ul>
+    </div>  
+    <br><br>
     <a href="https://www.nosalty.hu/recept/gyors-chilis-bab" target="blank">
 
-        <img src="img/bab.jpg" alt="csilis bab" title="csilis bab" width="400">
+        <img src="img/bab.jpg" alt="csilis bab" title="csilis bab" width="300" >
 
     </a>
-  </div>
+    <footer>
+        <style>
+            h1,a{
+                font-size: 200%;
+                color: black;
+            }
+        </style>
+<h1>Készítő: Halász Gergely</h1>
+<a href="mailto: halaszg@kkszki.hu">halaszg@kkszki.hu</a>
 
-  <div class="right">
- <img src="img/kollazs.jpg" alt="kollázs" title="kollázs" width="300">
-  </div>
-</div>
-
-<div style="background-color:#3d1bb9;text-align:center;padding:10px;margin-top:7px;">
-    <h4 style="color: aliceblue;">Készítő: Halász Gergely</h4>
-    <a href="mailto: halaszg@kkszki.hu" >halaszg@kkszki.hu</a>
-</div>
-
+    </footer>
 </body>
 </html>
-
