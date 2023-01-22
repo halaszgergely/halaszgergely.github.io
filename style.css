@@ -9,11 +9,6 @@ a:hover {
    font-size:160%;
    background-color: aqua;
 }
-.active {
-    color: chartreuse;
-    font-style: italic;
-    background-color: blueviolet;
-}
 body{
     background-color: darkcyan;
 }
